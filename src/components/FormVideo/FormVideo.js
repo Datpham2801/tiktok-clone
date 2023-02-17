@@ -3,11 +3,11 @@ import { AiFillLike, AiFillMessage } from "react-icons/ai";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { FaMusic } from "react-icons/fa";
 import "./formvideo.scss";
-import myvideo from "./myvideo.mp4";
-import myvideo1 from "./myvideo1.mp4";
+import myvideo from "./my-tym.mp4";
+import myvideo1 from "./my-tym1.mp4";
 
-import myvideo2 from "./myvideo2.mp4";
-import myvideo3 from "./myvideo3.mp4";
+import myvideo2 from "./my-tym2.mp4";
+import myvideo3 from "./myvideo1.mp4";
 
 import avatar from "../Navbar/img/avartar.jpg";
 export default function FormVideo() {
