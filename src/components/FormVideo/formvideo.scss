@@ -1,0 +1,91 @@
+.form{
+    display: flex;
+    padding-top: 44px;
+    gap: 20px;
+    .form-img{
+        width: 60px;
+        
+        img{
+            max-width: 40px;
+    border-radius: 50%;
+}
+    }
+   width: 100%;
+   height: 690px;
+    .form-content{
+        display: flex;
+        .form-container{
+            .form-content-header{
+                .form-content-header-name{
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 8px 0;
+                }
+                .form-content-header-decription{
+                    font-size: 15px;
+                    font-weight: 100;
+                    color: #7a7474;
+                }
+                .form-content-header-namemusic{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    margin: 8px 0;
+                    a{
+                        text-decoration: none;
+                        font-size: 14px;
+                        color: #000;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .form-contact{
+                display: flex;
+                gap: 30px;
+                .form-video{
+                    width: 277px;
+                    height: 499px;
+                }
+                .form-interact{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    gap: 20px;
+                    align-items: center;
+                    .form-interact-like{
+                        div{
+                            width: 50px;
+                            height: 50px;
+                            background-color: #7a7474;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 5px;
+                            border-radius: 50%;
+                        }
+                        div:hover{
+                            cursor: pointer;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        color: rgb(218, 86, 86);
+        border: 1px solid rgb(218, 86, 86);
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color: rgb(218, 86, 86);
+        color: #fff;
+        cursor: pointer;
+    }
+}
